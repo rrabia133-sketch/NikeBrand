@@ -1,6 +1,6 @@
 import React from "react";
 import amazone from "../images/amazone (1).png";
-import flipcart from "../images/flipcart.png";
+// import flipcart from "../images/flipcart.png";
 import hero from "../images/hero-imge.png";
 export default function HeroSection() {
   return (
@@ -22,7 +22,7 @@ export default function HeroSection() {
           </div>
           <div className="brand-icons">
             <img src={amazone}></img>
-            <img src={flipcart}></img>
+            {/* <img src={flipcart}></img> */}
           </div>
         </div>
 

@@ -97,15 +97,15 @@ button {
 }
 
 .brand-icons img {
-  width: 32px;
-  height: 32px;
+  width: 50px;
+  height: 50px;
 }
 .hero-image img {
   width: 530px;
   height: 487px;
 }
 /* --------------------------------------------- */
-/* Responsive styles */
+/* Responsive component hero section fuile styles */
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
@@ -147,5 +147,24 @@ button {
 
   .hero-image img {
     max-width: 300px;
+  }
+}
+/* --------------------------------------------- */
+/* Navbar responsive styles */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: var(--gray);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-button {
+    text-align: center;
+    margin-top: 1rem;
   }
 }
